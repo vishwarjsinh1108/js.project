@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #1a1a1a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    background-color: #2c2c2c;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+    width: 100%;
+    max-width: 350px;
+    text-align: center;
+}
+
+h2 {
+    color: #ffffff;
+    margin-bottom: 15px;
+    font-size: 1.5em;
+    text-transform: uppercase;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin-bottom: 15px;
+}
+
+span {
+    color: #cccccc;
+    font-size: 0.9em;
+    text-align: left;
+    font-weight: 500;
+}
+
+input {
+    padding: 8px;
+    border: 1px solid #555;
+    border-radius: 4px;
+    font-size: 14px;
+    width: 100%;
+    background-color: #3a3a3a;
+    color: #fff;
+}
+
+input::placeholder {
+    color: #888;
+}
+
+input:focus {
+    outline: none;
+    border-color: #ff4500;
+    background-color: #444;
+}
+
+.btn {
+    display: flex;
+    gap: 8px;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+
+.btn button {
+    padding: 8px 15px;
+    border: none;
+    border-radius: 4px;
+    background-color: #ff4500;
+    color: #fff;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.2s;
+}
+
+.btn button:hover {
+    background-color: #e63900;
+}
+
+.cal button {
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    background-color: #00cc00;
+    color: #fff;
+    cursor: pointer;
+    font-size: 14px;
+    width: 100%;
+    transition: background-color 0.2s;
+}
+
+.cal button:hover {
+    background-color: #00b300;
+}
+
+.result {
+    margin-top: 15px;
+    padding: 10px;
+    background-color: #333;
+    border-radius: 4px;
+}
+
+.result p {
+    color: #cccccc;
+    font-size: 14px;
+    margin: 3px 0;
+}
+
+#p, #r {
+    font-weight: bold;
+    color: #ff4500;
+}
